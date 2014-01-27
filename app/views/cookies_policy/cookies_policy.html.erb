@@ -1,0 +1,12 @@
+<% if !cookies[:acepted_cookies] or force_show %>
+  <div id="cookies-warning">
+    <div id="policy">
+      <p>
+        <%= raw(t("cookies-warning", policy_url: link_to(t("cookies-policy-link"), cookies_policy_path))) %>
+      </p>
+    </div>
+    <div id="dismiss">
+      <%= link_to('X', 'javascript:void(0);', onclick: "$('#cookies-warning').remove()") %>
+    </div>
+  </div>
+<% end %>
