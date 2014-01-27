@@ -4,7 +4,7 @@ module CookiesPolicy
     module ApplicationController
 
       def self.included(base)
-        base.after_action :set_cookie_policy
+        base.after_filter :set_cookie_policy
       end
 
       def set_cookie_policy
