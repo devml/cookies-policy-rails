@@ -2,7 +2,8 @@
   <div id="cookies-warning">
     <div id="policy">
       <p>
-        <%= raw(t("cookies-warning", policy_url: link_to(t("cookies-policy-link"), cookies_policy_path))) %>
+        <% policy_link = link_to(t("cookies-policy-link"), cookies_policy_path) rescue t("cookies-policy-link") %>
+        <%= raw(t("cookies-warning", policy_link: policy_link)) %>
       </p>
     </div>
     <div id="dismiss">
