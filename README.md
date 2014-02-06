@@ -30,9 +30,9 @@ Add this line to yout application.css
 
 To translate the message use I18n:
 
-  es:
-    cookies-policy-link: Política de cookies
-    cookies-warning: Utilizamos cookies propias para mejorar nuestros servicios. Si cierras este aviso o continuas navegando, consideramos que aceptas su uso.<br/> Puedes obtener más información, o bien conocer cómo cambiar la configuración de tu navegador, en nuestra %{policy_url}
+    es:
+      cookies-policy-link: Política de cookies
+      cookies-warning: Utilizamos cookies propias para mejorar nuestros servicios. Si cierras este aviso o continuas navegando, consideramos que aceptas su uso.<br/> Puedes obtener más información, o bien conocer cómo   cambiar la configuración de tu navegador, en nuestra %{policy_url}
   
 
 ## Contributing
